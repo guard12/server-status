@@ -4,12 +4,13 @@ Extremely lightweight example of react application with no boilerplate from crea
 Initial setup is cloned from (https://github.com/rwieruch/minimal-react-webpack-babel-setup)
 
 Added: ESLint, Flow, easy-peasy
+Replaced webpack with faster no-config Parcel
 
 ## Technologies
 
 * React 16
 * Webpack 4
-* Babel 7
+* Parcel
 * Flow
 * ESLint
 * easy-peasy

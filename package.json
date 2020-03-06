@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-	"build": "parcel build index.html",
-	"flow": "flow",
+    "build": "parcel build index.html",
+    "flow": "flow",
     "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [],
@@ -15,11 +15,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-flow": "^7.8.3",
-    "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.0.6",
     "babel-preset-nano-react-app": "^0.1.0",
     "eslint": "^6.8.0",
     "eslint-loader": "^3.0.3",
@@ -29,8 +25,7 @@
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^1.7.0",
     "flow-bin": "^0.119.1",
-    "parcel-bundler": "^1.12.4",
-    "react-hot-loader": "^4.12.10"
+    "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
     "easy-peasy": "^3.3.0",

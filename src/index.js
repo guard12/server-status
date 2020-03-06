@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// @flow
 
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { StoreProvider } from 'easy-peasy'
 
-const title = 'My Minimal React Webpack Babel Setup';
+import { store } from './store/store'
+import App from './components/app'
 
 ReactDOM.render(
-  <App title={title} />,
-  document.getElementById('app')
-);
+	<StoreProvider store={store}>
+		<App />
+	</StoreProvider>,
+	document.getElementById('app')
+)
 
-module.hot.accept();
+//eslint-disable-next-line
+module.hot.accept()

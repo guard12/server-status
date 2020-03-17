@@ -9,7 +9,6 @@ Replaced webpack with faster no-config Parcel
 ## Technologies
 
 * React 16
-* Webpack 4
 * Parcel
 * Flow
 * ESLint

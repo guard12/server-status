@@ -2,7 +2,7 @@
   "name": "server-status",
   "version": "1.0.0",
   "description": "",
-  "main": "index.tsx",
+  "main": "index.html",
   "scripts": {
     "start": "parcel serve index.html",
     "build": "parcel build index.html",

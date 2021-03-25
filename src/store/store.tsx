@@ -1,8 +1,8 @@
 import { createStore } from 'easy-peasy'
-import { dictionaryModel } from '../models/dictionary'
+import { serverModel } from '../models/server'
 
 const storeModel = {
-    dictionary: dictionaryModel,
+    server: serverModel,
 }
 
 export const store = createStore(storeModel)

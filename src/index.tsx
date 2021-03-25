@@ -1,5 +1,3 @@
-// @flow
-
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { StoreProvider } from 'easy-peasy'
@@ -13,6 +11,3 @@ ReactDOM.render(
 	</StoreProvider>,
 	document.getElementById('app')
 )
-
-//eslint-disable-next-line
-module.hot.accept()

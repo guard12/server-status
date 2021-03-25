@@ -5,13 +5,13 @@ import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion"
 import { ServerCardWrapper, ServerCardItem, ServerCardAvatar, ServerCardInfo } from '../styles/server-card'
 
 export function ServerCard() {
-	return <AnimateSharedLayout>
+	return <motion.div>
 		<ServerCardWrapper layout initial={{ borderRadius: 25 }}>
 			{items.map(item => (
 				<Item key={item} />
 			))}
 		</ServerCardWrapper>
-	</AnimateSharedLayout>
+	</motion.div>
 }
 
 function Item() {
